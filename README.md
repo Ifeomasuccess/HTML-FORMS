@@ -1,1 +1,7 @@
-A project containing both home and contact page 
+# My Project
+
+This is my website project.
+
+## Features
+- Home page
+- Contact page
