@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <!--This is my contact page-->
+    <div>
+        <!--Header-->
+        <header>
+        <a href="./index.html">About Us</a><br>
+        <a href="./contact.html">Contact Us</a>
+        <h1>REGISTRATION FORM</h1> <hr><br>
+    </header>
+    </div>
+    
+    <div>
+        <form method="post" action="submit.php">
+        <!--Name input-->
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name here...."><br><br>
+
+        <!--Email input-->
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email here...."><br><br>
+
+        <!--Password input-->
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter your password here...." required><br><br>
+
+        <!--Gender radio butons-->
+        <label for="">Gender</label><br>
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Male"> Male <br><br>
+
+        <!--Hobbies checkbox-->
+        <label>Hobbies</label>
+        <input type="checkbox" name="singing"> Singing
+        <input type="checkbox"> Reading 
+        <input type="checkbox"> Coding<br><br>
+
+        <!--Select relationship status-->
+        <label for="">Relationship Status</label>
+        <select>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+        </select> <br><br>
+
+        <!--Textarea-->
+        <label>What's on your mind?</label><br>
+        <textarea name="" id="" rows="7" cols="40" placeholder="Enter your message here....."></textarea> <br><br>
+
+        <!--Submit button-->
+        <button>Submit</button>
+    </form>
+    </div>
+</body>
+</html>
